@@ -10,3 +10,6 @@ config :all, :required => :sproutcore , :layout => 'sproutin:lib/index.rhtml'
 
 # In addition to this Buildfile, which gives settings for your entire project,
 # each of your apps has its own Buildfile with settings specific to that app.
+
+
+#proxy '/', :to =>'api.linkedin.com' , :url => '/v1/'
